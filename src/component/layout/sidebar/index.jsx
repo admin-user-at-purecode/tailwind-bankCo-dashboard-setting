@@ -65,7 +65,6 @@ function Sidebar({ handleActive }) {
                 <button
                     aria-label="none"
                     type="button"
-                    onClick={handleActive}
                     className="drawer-btn absolute right-0 top-auto"
                     title="Ctrl+b"
                 >

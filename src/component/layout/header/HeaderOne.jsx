@@ -20,7 +20,6 @@ function HeaderOne({ handleSidebar }) {
             <div className="relative flex h-[108px] w-full items-center justify-between bg-white px-10 dark:bg-darkblack-600 2xl:px-[76px]">
                 <button
                     aria-label="none"
-                    onClick={handleSidebar}
                     title="Ctrl+b"
                     type="button"
                     className="drawer-btn absolute left-0 top-auto rotate-180 transform"

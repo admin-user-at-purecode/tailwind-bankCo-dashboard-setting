@@ -16,7 +16,6 @@ function HeaderTwo({ handleSidebar }) {
                             aria-label="none"
                             type="button"
                             className="drawer-btn rotate-180 transform"
-                            onClick={handleSidebar}
                         >
                             <span>
                                 <svg

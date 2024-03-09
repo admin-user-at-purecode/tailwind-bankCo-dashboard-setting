@@ -133,5 +133,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Removed Sidebar collapsible functionality from HeaderOne and HeaderTwo"]
 }
