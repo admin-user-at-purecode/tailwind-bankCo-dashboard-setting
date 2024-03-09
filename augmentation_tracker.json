@@ -107,12 +107,12 @@
           "children": {
             "TabBtn": {
               "count": 4,
-              "location": "top left side of the Settings component inside SettingsSidebar",
+              "location": "bottom left side of the Settings component inside SettingsSidebar",
               "description": "a type of link"
             },
             "Progressbar": {
               "count": 1,
-              "location": "At the bottom of SettingsSidebar",
+              "location": "At the top of SettingsSidebar",
               "description": "it shows the percentage of profile completion"
             }
           }
@@ -133,5 +133,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Progressbar is positioned to the top inside SettingsSidebar"]
 }
