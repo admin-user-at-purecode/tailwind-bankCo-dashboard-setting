@@ -26,7 +26,7 @@
       "children": {
         "SearchBar": {
           "count": 1,
-          "location": "placed centered",
+          "location": "placed right to the Author",
           "description": "user can enter input"
         },
         "ModeToggler": {
@@ -56,7 +56,7 @@
         },
         "Author": {
           "count": 1,
-          "location": "to the right of the ToggleBtn",
+          "location": "Author is positioned left to the SearchBar",
           "description": "opens the popup containing user basic information"
         },
         "ProfilePopup": {
@@ -133,5 +133,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Author is positioned left to the SearchBar"]
 }

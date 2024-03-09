@@ -55,6 +55,9 @@ function HeaderOne({ handleSidebar }) {
                         Let’s check your update today
                     </p>
                 </div>
+                <Author showProfile={handlePopup} />
+
+
                 <SearchBar />
 
                 <div className="quick-access-wrapper relative">
@@ -143,14 +146,13 @@ function HeaderOne({ handleSidebar }) {
                         </div>
                         <div className="hidden h-[48px] w-[1px] bg-bgray-300 dark:bg-darkblack-400 xl:block"></div>
                         {/* author */}
-                        <Author showProfile={handlePopup} />
                     </div>
                     {/* notification ,message, store */}
-
                     <ProfilePopup
                         active={popup?.profile}
                         handlePopup={handlePopup}
                     />
+                
                 </div>
             </div>
         </header>
