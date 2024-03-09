@@ -31,7 +31,7 @@
         },
         "ModeToggler": {
           "count": 1,
-          "location": "to the right of the SearchBar",
+          "location": "to the right of the Author",
           "description": "theme toggle button",
           "functionality": "toggles the global theme"
         },
@@ -56,7 +56,7 @@
         },
         "Author": {
           "count": 1,
-          "location": "to the right of the ToggleBtn",
+          "location": "to the left of the SearchBar",
           "description": "opens the popup containing user basic information"
         },
         "ProfilePopup": {
@@ -133,5 +133,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Swapped the position of ToggleBtns and Author"]
 }
