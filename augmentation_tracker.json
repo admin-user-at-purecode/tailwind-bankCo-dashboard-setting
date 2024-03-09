@@ -124,7 +124,7 @@
           "children": {
             "PersonalInfoFrom": {
               "count": 1,
-              "location": "top right side of the SettingsSidebar component  inside PersonalInfo",
+              "location": "top right side of the PersonalInfoFrom component  inside PersonalInfo",
               "description": "a type of form where you can fill details."
             }
           }
@@ -133,5 +133,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["PersonalInfoFrom is positioned to the right of PersonalInfo"]
 }
