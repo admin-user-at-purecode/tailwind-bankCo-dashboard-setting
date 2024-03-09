@@ -26,7 +26,7 @@
       "children": {
         "SearchBar": {
           "count": 1,
-          "location": "placed centered",
+          "location": "SearchBar is positioned to the right cornor of HeaderOne",
           "description": "user can enter input"
         },
         "ModeToggler": {
@@ -133,5 +133,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["SearchBar is positioned to the right corner of HeaderOne"]
 }
