@@ -27,7 +27,6 @@ function ModeToggler() {
             aria-label="none"
             type="button"
             id="theme-toggle"
-            onClick={toggleMode}
             className="relative flex h-[52px] w-[52px] items-center justify-center rounded-[12px] border border-success-300 dark:border-darkblack-400"
         >
             <span className="block dark:hidden">
