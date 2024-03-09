@@ -133,5 +133,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Swapped position of SettingsSidebar and PersonalInfo , Also Progressbar is positioned at the top of SettingsSidebar"]
 }
