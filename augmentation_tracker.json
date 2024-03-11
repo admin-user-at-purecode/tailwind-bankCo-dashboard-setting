@@ -118,8 +118,8 @@
           }
         },
         "PersonalInfo": {
-          "count": 1,
-          "location": "top right side of  SettingsSidebar component just below the HeaderOne ",
+          "count": 2,
+          "location": "top right side of  SettingsSidebar component just below the HeaderOne  and second one is just below SettingsSidebar and PersonalInfo",
           "description": "a form where you can see and update your Personal Information's",
           "children": {
             "PersonalInfoFrom": {
@@ -133,5 +133,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["added PersonalInfo just below SettingsSidebar and PersonalInfo"]
 }

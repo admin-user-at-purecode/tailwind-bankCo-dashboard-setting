@@ -1,4 +1,3 @@
-import React from "react";
 import SettingsSidebar from "../../component/settings/SettingsSidebar";
 import PersonalInfo from "../../pages/settings/personal-info";
 
@@ -11,6 +10,7 @@ function Settings() {
           <PersonalInfo />
         </div>
       </div>
+      <PersonalInfo />
     </main>
   );
 }
