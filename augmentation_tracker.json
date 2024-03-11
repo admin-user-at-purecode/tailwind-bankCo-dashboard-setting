@@ -16,7 +16,8 @@
     "SettingsSidebar",
     "TabBtn",
     "PersonalInfo",
-    "PersonalInfoFrom"
+    "PersonalInfoFrom",
+    "Progressbar"
   ],
   "component_information": {
     "HeaderOne": {
