@@ -24,14 +24,9 @@
       "location": "to the top of the container",
       "description": "header for large screen",
       "children": {
-        "SearchBar": {
-          "count": 1,
-          "location": "placed centered",
-          "description": "user can enter input"
-        },
         "ModeToggler": {
           "count": 1,
-          "location": "to the right of the SearchBar",
+          "location": "to the right of the heading Dashboard",
           "description": "theme toggle button",
           "functionality": "toggles the global theme"
         },
@@ -133,5 +128,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Removed SearchBar from HeaderOne"]
 }
