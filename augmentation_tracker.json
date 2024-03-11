@@ -43,14 +43,6 @@
             "NotificationPopup": {
               "count": 1,
               "description": "opens on first toggle button clicked"
-            },
-            "MassagePopup": {
-              "count": 1,
-              "description": "opens on second toggle button clicked"
-            },
-            "StorePopUp": {
-              "count": 1,
-              "description": "opens on third toggle button clicked"
             }
           }
         },
@@ -133,5 +125,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Removed Massage ToggleBtn and Store ToggleBtn"]
 }
