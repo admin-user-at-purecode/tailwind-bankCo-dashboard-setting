@@ -101,8 +101,8 @@
       "description": "a container",
       "children": {
         "SettingsSidebar": {
-          "count": 1,
-          "location": "top left inside Settings component just below the HeaderOne ",
+          "count": 2,
+          "location": "top left inside Settings component just below the HeaderOne and second one is added  below the SettingsSidebar and PersonalInfo",
           "description": "It contains listItem of TabBtn",
           "children": {
             "TabBtn": {
@@ -133,5 +133,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["added SettingsSidebar below the SettingsSidebar and PersonalInfo"]
 }
