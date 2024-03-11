@@ -1,4 +1,3 @@
-import React from "react";
 import SettingsSidebar from "../../component/settings/SettingsSidebar";
 import PersonalInfo from "../../pages/settings/personal-info";
 
@@ -10,6 +9,10 @@ function Settings() {
         <div className="py-8 px-10 col-span-9 tab-content">
           <PersonalInfo />
         </div>
+      </div>
+      <SettingsSidebar />
+      <div className="my-6">
+        <PersonalInfo />
       </div>
     </main>
   );

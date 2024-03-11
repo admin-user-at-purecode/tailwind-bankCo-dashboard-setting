@@ -16,7 +16,8 @@
     "SettingsSidebar",
     "TabBtn",
     "PersonalInfo",
-    "PersonalInfoFrom"
+    "PersonalInfoFrom",
+    "Progressbar"
   ],
   "component_information": {
     "HeaderOne": {
@@ -119,7 +120,7 @@
         },
         "PersonalInfo": {
           "count": 1,
-          "location": "top right side of  SettingsSidebar component just below the HeaderOne ",
+          "location": "top right side of  SettingsSidebar component just below the HeaderOne  and second one is just below second settingSidebar and personalInfo",
           "description": "a form where you can see and update your Personal Information's",
           "children": {
             "PersonalInfoFrom": {
@@ -133,5 +134,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["added PersonalInfo and SettingsSidebar just below first SettingsSidebar and PersonalInfo"]
 }
