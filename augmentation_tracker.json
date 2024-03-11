@@ -15,8 +15,7 @@
     "Settings",
     "SettingsSidebar",
     "TabBtn",
-    "PersonalInfo",
-    "PersonalInfoFrom"
+    "PersonalInfo"
   ],
   "component_information": {
     "HeaderOne": {
@@ -120,18 +119,11 @@
         "PersonalInfo": {
           "count": 1,
           "location": "top right side of  SettingsSidebar component just below the HeaderOne ",
-          "description": "a form where you can see and update your Personal Information's",
-          "children": {
-            "PersonalInfoFrom": {
-              "count": 1,
-              "location": "top right side of the SettingsSidebar component  inside PersonalInfo",
-              "description": "a type of form where you can fill details."
-            }
-          }
+          "description": "a form where you can see and update your Personal Information's"
         }
       }
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Removed PersonalInfoFrom from PersonalInfo "]
 }

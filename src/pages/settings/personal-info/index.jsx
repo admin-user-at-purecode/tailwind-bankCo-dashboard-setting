@@ -1,11 +1,9 @@
 import profileImg from "../../../assets/images/avatar/profile.png";
 import coverImg from "../../../assets/images/others/cover.jpg";
-import PersonalInfoFrom from "../../../component/forms/PersonalInfoFrom";
 function PersonalInfo() {
   return (
     <div id="tab1" className="tab-pane active">
       <div className="xl:grid grid-cols-12 gap-12 flex 2xl:flex-row flex-col-reverse">
-        <PersonalInfoFrom />
         <div className="2xl:col-span-4 xl:col-span-5 2xl:mt-24">
           <header className="mb-8">
             <h4 className="font-bold text-lg text-bgray-800 dark:text-white mb-2">
