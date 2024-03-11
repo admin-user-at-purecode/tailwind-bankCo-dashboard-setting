@@ -29,21 +29,11 @@
           "location": "placed centered",
           "description": "user can enter input"
         },
-        "ModeToggler": {
-          "count": 1,
-          "location": "to the right of the SearchBar",
-          "description": "theme toggle button",
-          "functionality": "toggles the global theme"
-        },
         "ToggleBtn": {
           "count": 3,
-          "location": "to the right of the ModeToggler button",
+          "location": "to the right of the SearchBar ",
           "description": "on clicked opens popup",
           "children": {
-            "NotificationPopup": {
-              "count": 1,
-              "description": "opens on first toggle button clicked"
-            },
             "MassagePopup": {
               "count": 1,
               "description": "opens on second toggle button clicked"
@@ -133,5 +123,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Removed notification ToggleBtn and ModeToggler button"]
 }
