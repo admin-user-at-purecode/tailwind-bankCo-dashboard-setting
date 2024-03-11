@@ -155,10 +155,6 @@ function Sidebar({ handleActive }) {
                                     ))}
                                 </ul>
                             </li>
-                            <ListItem text={"Transaction"} />
-                            <ListItem text={"Statistics"} />
-                            <ListItem text={"My Wallet"} />
-                            <ListItem text={"Analytics"} />
                             <li
                                 className={`item py-[11px] text-bgray-900 dark:text-white`}
                             >
@@ -206,31 +202,6 @@ function Sidebar({ handleActive }) {
                                     </div>
                                 </a>
                             </li>
-                            <ListItem text={"Integrations"} />
-                            <ListItem text={"User"} />
-                            <ListItem text={"Calender"} />
-                            <ListItem text={"History"} />
-                        </ul>
-                    </div>
-                    <div className="item-wrapper mb-5">
-                        <h4 className="border-b border-bgray-200 text-sm font-medium leading-7 text-bgray-700 dark:border-darkblack-400 dark:text-bgray-50">
-                            Help
-                        </h4>
-                        <ul className="mt-2.5">
-                            <ListItem text={"Support"} />
-                            <ListItem text={"Setting"} />
-                        </ul>
-                    </div>
-                    <div className="item-wrapper mb-5">
-                        <h4 className="border-b border-bgray-200 text-sm font-medium leading-7 text-bgray-700 dark:border-darkblack-400 dark:text-bgray-50">
-                            Others
-                        </h4>
-                        <ul className="mt-2.5">
-                            <ListItem text={"SignIn"} />
-                            <ListItem text={"Signup"} />
-                            <ListItem text={"Coming Soon"} />
-                            <ListItem text={"404"} />
-                            <ListItem text={"Logout"} />
                         </ul>
                     </div>
                 </div>

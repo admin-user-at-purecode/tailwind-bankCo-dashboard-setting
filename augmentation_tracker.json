@@ -16,7 +16,8 @@
     "SettingsSidebar",
     "TabBtn",
     "PersonalInfo",
-    "PersonalInfoFrom"
+    "PersonalInfoFrom",
+    "Progressbar"
   ],
   "component_information": {
     "HeaderOne": {
@@ -133,5 +134,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["Removed ListItem from Sidebar"]
 }
