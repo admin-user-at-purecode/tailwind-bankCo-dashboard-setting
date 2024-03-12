@@ -16,7 +16,18 @@
     "SettingsSidebar",
     "TabBtn",
     "PersonalInfo",
-    "PersonalInfoFrom"
+    "PersonalInfoFrom",
+    "HeaderOne",
+    "SearchBar",
+    "ModeToggler",
+    "ToggleBtn",
+    "NotificationPopup",
+    "MassagePopup",
+    "StorePopUp",
+    "Author",
+    "ProfilePopup",
+    "HeaderTwo",
+    "ResProfilePopup"
   ],
   "component_information": {
     "HeaderOne": {
@@ -106,13 +117,12 @@
           "description": "It contains listItem of TabBtn",
           "children": {
             "TabBtn": {
-              "count": 4,
-              "location": "top left side of the Settings component inside SettingsSidebar",
-              "description": "a type of link"
+              "count": 8,
+              "location": "top left side of the Settings component inside SettingsSidebar and below the Progressbar inside SettingsSidebar",              "description": "a type of link"
             },
             "Progressbar": {
-              "count": 1,
-              "location": "At the bottom of SettingsSidebar",
+              "count": 2,
+              "location": "One is at the top of SettingsSidebar and second one is at the bottom of TabBtn inside settingSidebar",
               "description": "it shows the percentage of profile completion"
             }
           }
@@ -133,5 +143,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "screen_and_layout_augmentations": ["added Progressbar at the top of TabBtns and added TabBtns below the Progressbar inside SettingsSidebar"]
 }
