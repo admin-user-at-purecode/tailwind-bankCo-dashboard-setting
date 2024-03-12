@@ -112,7 +112,7 @@
       "children": {
         "SettingsSidebar": {
           "count": 1,
-          "location": "top left inside Settings component just below the HeaderOne ",
+          "location": "top  inside Settings component just below the HeaderOne ",
           "description": "It contains listItem of TabBtn",
           "children": {
             "TabBtn": {
@@ -129,7 +129,7 @@
         },
         "PersonalInfo": {
           "count": 1,
-          "location": "top right side of  SettingsSidebar component just below the HeaderOne ",
+          "location": " below the SettingsSidebar ",
           "description": "a form where you can see and update your Personal Information's",
           "children": {
             "PersonalInfoFrom": {
@@ -143,6 +143,6 @@
     }
   },
   "functionality": {},
-  "sizing_updates": [],
+  "sizing_updates": ["PersonalInfo ,SettingsSidebar taking full width"],
   "screen_and_layout_augmentations": []
 }
