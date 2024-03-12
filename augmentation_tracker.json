@@ -9,9 +9,19 @@
     "shadow": "2px 2px 2px 2px #888888"
   },
   "component_names": [
+    "HeaderOne",
+    "SearchBar",
+    "ModeToggler",
+    "ToggleBtn",
+    "NotificationPopup",
+    "MassagePopup",
+    "StorePopUp",
+    "Author",
+    "ProfilePopup",
+    "HeaderTwo",
+    "ResProfilePopup",
     "Sidebar",
     "SidebarV2",
-    "Header",
     "Settings",
     "SettingsSidebar",
     "TabBtn",
@@ -106,7 +116,7 @@
           "description": "It contains listItem of TabBtn",
           "children": {
             "TabBtn": {
-              "count": 4,
+              "count": 7,
               "location": "top left side of the Settings component inside SettingsSidebar",
               "description": "a type of link"
             },
@@ -119,7 +129,7 @@
         },
         "PersonalInfo": {
           "count": 1,
-          "location": "top right side of  SettingsSidebar component just below the HeaderOne ",
+          "location": "Just below the SettingsSidebar ",
           "description": "a form where you can see and update your Personal Information's",
           "children": {
             "PersonalInfoFrom": {
@@ -132,6 +142,7 @@
       }
     }
   },
-  "sizing_updates": [""],
+  "functionality": {},
+  "sizing_updates": ["PersonalInfo is just below SettingsSidebar which is taking full width"],
   "screen_and_layout_augmentations": [""]
 }
