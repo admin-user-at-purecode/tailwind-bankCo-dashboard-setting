@@ -1,22 +1,17 @@
 {
   "theme_augmentations": {
+    "color": "red",
     "font": "Arial",
-    "background": "white"
+    "size": "12px",
+    "background": "white",
+    "border": "1px solid black",
+    "radius": "5px",
+    "shadow": "2px 2px 2px 2px #888888"
   },
   "component_names": [
-    "HeaderOne",
-    "SearchBar",
-    "ModeToggler",
-    "ToggleBtn",
-    "NotificationPopup",
-    "MassagePopup",
-    "StorePopUp",
-    "Author",
-    "ProfilePopup",
-    "HeaderTwo",
-    "ResProfilePopup",
     "Sidebar",
     "SidebarV2",
+    "Header",
     "Settings",
     "SettingsSidebar",
     "TabBtn",
@@ -112,8 +107,8 @@
           "description": "It contains listItem of TabBtn",
           "children": {
             "TabBtn": {
-              "count": 7,
-              "location": "top left side of the Settings component inside SettingsSidebar and  below the Progressbar inside SettingsSidebar",
+              "count": 4,
+              "location": "top left side of the Settings component inside SettingsSidebar",
               "description": "a type of link"
             },
             "Progressbar": {
@@ -139,5 +134,5 @@
     }
   },
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": ["added TabBtns below Progressbar inside SettingsSidebar"]
+  "screen_and_layout_augmentations": [""]
 }
