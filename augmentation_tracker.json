@@ -9,9 +9,19 @@
     "shadow": "2px 2px 2px 2px #888888"
   },
   "component_names": [
+    "HeaderOne",
+    "SearchBar",
+    "ModeToggler",
+    "ToggleBtn",
+    "NotificationPopup",
+    "MassagePopup",
+    "StorePopUp",
+    "Author",
+    "ProfilePopup",
+    "HeaderTwo",
+    "ResProfilePopup",
     "Sidebar",
     "SidebarV2",
-    "Header",
     "Settings",
     "SettingsSidebar",
     "TabBtn",
@@ -132,6 +142,7 @@
       }
     }
   },
-  "sizing_updates": [""],
-  "screen_and_layout_augmentations": [""]
+  "functionality": {},
+  "sizing_updates": [],
+  "screen_and_layout_augmentations": []
 }
